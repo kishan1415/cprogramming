@@ -1,10 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void main(){
-int A,B;
-printf("A=\n");
-scanf("%d",&A);
-printf("B=\n");
-scanf("%d",&B);
-printf("ans=%d\n",A+B);
+void main()
+{
+    int a, b;
+    
+    scanf("%d", &a);
+    scanf("%d", &b);
+    int c = a + b;
+
+    printf("ans= %i\n", c);
 }
