@@ -1,13 +1,19 @@
 #include <stdio.h>
-void main()
+int main()
 {
-    int a, b;
-    printf("Please enter first number:");
-    scanf("%d", &a);
-    printf("Please enter second number: ");
-    scanf("%d", &b);
-    if (a > b)
+    int a = 10;
+    if (a < 0)
     {
-        printf("a(%i) is greater than b(%i)", a, b);
+        printf("%i is a negative integer!", a);
     }
+    else if (a == 0)
+    {
+        printf("%i is Zero !", a);
+    }
+    else
+    {
+        printf("%i is a positive integer", a);
+    }
+
+    return 0;
 }
