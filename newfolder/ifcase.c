@@ -10,4 +10,8 @@ void main()
     {
         printf("a(%i) is greater than b(%i)", a, b);
     }
+    else
+    {
+        printf("b(%i) is greater than a(%i) ", b, a);
+    }
 }
